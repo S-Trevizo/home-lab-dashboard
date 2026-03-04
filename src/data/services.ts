@@ -19,10 +19,10 @@ export const SERVICES: Service[] = [
     accentColor: "#c17f3a",
   },
   {
-    name: "Overseerr",
+    name: "Seerr",
     subtitle: "Media Requests",
-    url: "https://overseerr.xeon.quest",
-    checkUrl: "https://overseerr.xeon.quest",
+    url: "https://seerr.xeon.quest",
+    checkUrl: "https://seerr.xeon.quest",
     icon: "🎬",
     accentColor: "#3a7fc1",
   },

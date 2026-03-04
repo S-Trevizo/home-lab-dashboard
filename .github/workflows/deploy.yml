@@ -13,6 +13,9 @@ jobs:
         with:
           authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
 
+      - name: Test Tailscale connectivity
+        run: ping -c 3 100.87.46.22
+
       - name: Deploy to server
         uses: appleboy/ssh-action@v1
         with:

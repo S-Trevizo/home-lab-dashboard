@@ -15,7 +15,7 @@ export const SERVICES: Service[] = [
     subtitle: "Virtual Tabletop",
     url: "https://foundry.xeon.quest",
     checkUrl: "https://foundry.xeon.quest",
-    icon: "⚔️",
+    icon: "/foundry_icon.png",
     accentColor: "#c17f3a",
   },
   {
@@ -23,7 +23,7 @@ export const SERVICES: Service[] = [
     subtitle: "Media Requests",
     url: "https://seerr.xeon.quest",
     checkUrl: "https://seerr.xeon.quest",
-    icon: "🎬",
+    icon: "/seerr_icon.png",
     accentColor: "#3a7fc1",
   },
   {
@@ -31,7 +31,7 @@ export const SERVICES: Service[] = [
     subtitle: "Plex Analytics",
     url: "https://tautulli.xeon.quest",
     checkUrl: "https://tautulli.xeon.quest",
-    icon: "📊",
+    icon: "/tautulli_icon.svg",
     accentColor: "#3ac17f",
   },
   {
@@ -39,7 +39,15 @@ export const SERVICES: Service[] = [
     subtitle: "Personal Finance",
     url: "https://firefly.xeon.quest",
     checkUrl: "https://firefly.xeon.quest",
-    icon: "🔥",
+    icon: "/firefly_icon.svg",
     accentColor: "#c13a5a",
+  },
+  {
+    name: "Grafana",
+    subtitle: "Observability",
+    url: "https://grafana.xeon.quest",
+    checkUrl: "https://grafana.xeon.quest",
+    icon: "/grafana_icon.svg",
+    accentColor: "#FF9830",
   },
 ];

@@ -43,7 +43,11 @@ export function ServiceCard({ service, status, index }: ServiceCardProps) {
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
         <div>
           <div style={{ fontSize: 28, marginBottom: 8, lineHeight: 1 }}>
-            {service.icon}
+            {/\.(svg|png|jpg|jpeg|gif|webp)$/i.test(service.icon) ? (
+              <img src={service.icon} alt={service.name} style={{ width: 28, height: 28 }} />
+            ) : (
+              service.icon
+            )}
           </div>
           <div
             style={{

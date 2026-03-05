@@ -140,7 +140,7 @@ export default function App() {
             textTransform: "uppercase",
           }}
         >
-          <span>Proxmox · Ryzen 5650G · 16GB RAM</span>
+          <span>Proxmox · Ryzen 5650G · 32GB RAM</span>
           <span>Status refreshes every 30s</span>
         </div>
       </div>

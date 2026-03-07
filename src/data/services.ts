@@ -50,4 +50,20 @@ export const SERVICES: Service[] = [
     icon: "/grafana_icon.svg",
     accentColor: "#FF9830",
   },
+  {
+    name: "Immich",
+    subtitle: "Photo Management",
+    url: "https://photos.xeon.quest",
+    checkUrl: "https://photos.xeon.quest",
+    icon: "/immich_icon.png",
+    accentColor: "#3a9fc1",
+  },
+  {
+    name: "Nextcloud",
+    subtitle: "File Sync & Sharing",
+    url: "https://cloud.xeon.quest",
+    checkUrl: "https://cloud.xeon.quest",
+    icon: "/nextcloud_icon.png",
+    accentColor: "#5ac13a"
+  }
 ];

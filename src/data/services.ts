@@ -55,7 +55,7 @@ export const SERVICES: Service[] = [
     subtitle: "Photo Management",
     url: "https://photos.xeon.quest",
     checkUrl: "https://photos.xeon.quest",
-    icon: "/immich_icon.png",
+    icon: "/immich_icon.svg",
     accentColor: "#3a9fc1",
   },
   {
@@ -63,7 +63,7 @@ export const SERVICES: Service[] = [
     subtitle: "File Sync & Sharing",
     url: "https://cloud.xeon.quest",
     checkUrl: "https://cloud.xeon.quest",
-    icon: "/nextcloud_icon.png",
+    icon: "/nextcloud_icon.svg",
     accentColor: "#5ac13a"
   }
 ];

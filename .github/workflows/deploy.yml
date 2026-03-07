@@ -10,12 +10,6 @@ jobs:
         uses: tailscale/github-action@v2
         with:
           authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
-      - name: Debug network
-        run: |
-          sleep 5
-          tailscale status
-          ping -c3 192.168.1.49 || true
-          ping -c3 100.87.46.22 || true
       - name: Deploy to server
         uses: appleboy/ssh-action@v1
         with:
@@ -23,6 +17,4 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: ${{ secrets.SSH_SCRIPT }}
-          proxy_host: ${{ secrets.SSH_PROXY_HOST }}
-          proxy_username: ${{ secrets.SSH_PROXY_USER }}
           proxy_key: ${{ secrets.SSH_PRIVATE_KEY }}

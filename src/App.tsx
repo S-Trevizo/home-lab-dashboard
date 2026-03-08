@@ -42,7 +42,7 @@ export default function App() {
           color: "#f0ede8",
           fontFamily: "'DM Mono', monospace",
           padding: "48px 40px",
-          maxWidth: 860,
+          maxWidth: 1500,
           margin: "0 auto",
           animation: "fadeIn 0.4s ease",
         }}

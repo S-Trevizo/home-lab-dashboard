@@ -3,6 +3,5 @@ set -e
 
 cd /home/xeon/repos/home-lab-dashboard
 git pull
-npm run clean
-npm install
-npm start
+npm run build
+sudo systemctl restart nginx

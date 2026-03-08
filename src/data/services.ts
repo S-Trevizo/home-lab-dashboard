@@ -16,7 +16,7 @@ export const SERVICES: Service[] = [
     url: "https://foundry.xeon.quest",
     checkUrl: "https://foundry.xeon.quest",
     icon: "/foundry_icon.png",
-    accentColor: "#84c8e6",
+    accentColor: "#c79243",
   },
   {
     name: "Seerr",
@@ -24,7 +24,7 @@ export const SERVICES: Service[] = [
     url: "https://seerr.xeon.quest",
     checkUrl: "https://seerr.xeon.quest",
     icon: "/seerr_icon.png",
-    accentColor: "#3a7fc1",
+    accentColor: "#903ace",
   },
   {
     name: "Immich",
@@ -32,7 +32,7 @@ export const SERVICES: Service[] = [
     url: "https://photos.xeon.quest",
     checkUrl: "https://photos.xeon.quest",
     icon: "/immich_icon.svg",
-    accentColor: "#b272e9",
+    accentColor: "#e0de59",
   },
   {
     name: "Nextcloud",

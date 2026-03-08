@@ -27,6 +27,14 @@ export const SERVICES: Service[] = [
     accentColor: "#903ace",
   },
   {
+    name: "Firefly III",
+    subtitle: "Personal Finance",
+    url: "https://firefly.xeon.quest",
+    checkUrl: "https://firefly.xeon.quest",
+    icon: "/firefly_icon.svg",
+    accentColor: "#c13a5a",
+  },
+  {
     name: "Immich",
     subtitle: "Photo Management",
     url: "https://photos.xeon.quest",
@@ -49,14 +57,6 @@ export const SERVICES: Service[] = [
     checkUrl: "https://tautulli.xeon.quest",
     icon: "/tautulli_icon.svg",
     accentColor: "#3ac17f",
-  },
-  {
-    name: "Firefly III",
-    subtitle: "Personal Finance",
-    url: "https://firefly.xeon.quest",
-    checkUrl: "https://firefly.xeon.quest",
-    icon: "/firefly_icon.svg",
-    accentColor: "#c13a5a",
   },
   {
     name: "Grafana",

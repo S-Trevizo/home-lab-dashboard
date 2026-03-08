@@ -16,7 +16,7 @@ export const SERVICES: Service[] = [
     url: "https://foundry.xeon.quest",
     checkUrl: "https://foundry.xeon.quest",
     icon: "/foundry_icon.png",
-    accentColor: "#c17f3a",
+    accentColor: "#84c8e6",
   },
   {
     name: "Seerr",
@@ -25,6 +25,22 @@ export const SERVICES: Service[] = [
     checkUrl: "https://seerr.xeon.quest",
     icon: "/seerr_icon.png",
     accentColor: "#3a7fc1",
+  },
+  {
+    name: "Immich",
+    subtitle: "Photo Management",
+    url: "https://photos.xeon.quest",
+    checkUrl: "https://photos.xeon.quest",
+    icon: "/immich_icon.svg",
+    accentColor: "#b272e9",
+  },
+  {
+    name: "Nextcloud",
+    subtitle: "File Sync & Sharing",
+    url: "https://cloud.xeon.quest",
+    checkUrl: "https://cloud.xeon.quest",
+    icon: "/nextcloud_icon.svg",
+    accentColor: "#3a9fc1"
   },
   {
     name: "Tautulli",
@@ -49,21 +65,5 @@ export const SERVICES: Service[] = [
     checkUrl: "https://grafana.xeon.quest",
     icon: "/grafana_icon.svg",
     accentColor: "#FF9830",
-  },
-  {
-    name: "Immich",
-    subtitle: "Photo Management",
-    url: "https://photos.xeon.quest",
-    checkUrl: "https://photos.xeon.quest",
-    icon: "/immich_icon.svg",
-    accentColor: "#3a9fc1",
-  },
-  {
-    name: "Nextcloud",
-    subtitle: "File Sync & Sharing",
-    url: "https://cloud.xeon.quest",
-    checkUrl: "https://cloud.xeon.quest",
-    icon: "/nextcloud_icon.svg",
-    accentColor: "#5ac13a"
   }
 ];

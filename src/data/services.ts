@@ -56,7 +56,7 @@ export const SERVICES: Service[] = [
     url: "https://books.xeon.quest",
     checkUrl: "https://books.xeon.quest",
     icon: "/calibre_icon.svg",
-    accentColor: "#3a9fc1"
+    accentColor: "#d95ccc"
   },
   {
     name: "Tautulli",
